@@ -14,8 +14,20 @@
 		80554C2224C7DAEF007A33BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80554C2124C7DAEF007A33BC /* Assets.xcassets */; };
 		80554C2524C7DAEF007A33BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80554C2324C7DAEF007A33BC /* LaunchScreen.storyboard */; };
 		80554C2F24C7DC82007A33BC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C2E24C7DC82007A33BC /* CustomTextField.swift */; };
-		80554C3224C80D42007A33BC /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3124C80D42007A33BC /* Values.swift */; };
+		80554C3224C80D42007A33BC /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3124C80D42007A33BC /* Wage.swift */; };
+		80554C3A24C80FC2007A33BC /* Hours_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3924C80FC2007A33BC /* Hours_CalculatorTests.swift */; };
+		80554C4124C8118F007A33BC /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3124C80D42007A33BC /* Wage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80554C3C24C80FC2007A33BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80554C0D24C7DAEB007A33BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80554C1424C7DAEB007A33BC;
+			remoteInfo = "Hours Calculator";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		80554C1524C7DAEB007A33BC /* Hours Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hours Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,11 +39,21 @@
 		80554C2424C7DAEF007A33BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80554C2624C7DAEF007A33BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80554C2E24C7DC82007A33BC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		80554C3124C80D42007A33BC /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		80554C3124C80D42007A33BC /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		80554C3724C80FC1007A33BC /* Hours CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hours CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80554C3924C80FC2007A33BC /* Hours_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hours_CalculatorTests.swift; sourceTree = "<group>"; };
+		80554C3B24C80FC2007A33BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		80554C1224C7DAEB007A33BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80554C3424C80FC1007A33BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				80554C1724C7DAEB007A33BC /* Hours Calculator */,
+				80554C3824C80FC2007A33BC /* Hours CalculatorTests */,
 				80554C1624C7DAEB007A33BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				80554C1524C7DAEB007A33BC /* Hours Calculator.app */,
+				80554C3724C80FC1007A33BC /* Hours CalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,9 +116,18 @@
 		80554C3024C80D17007A33BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				80554C3124C80D42007A33BC /* Values.swift */,
+				80554C3124C80D42007A33BC /* Wage.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		80554C3824C80FC2007A33BC /* Hours CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				80554C3924C80FC2007A33BC /* Hours_CalculatorTests.swift */,
+				80554C3B24C80FC2007A33BC /* Info.plist */,
+			);
+			path = "Hours CalculatorTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +150,24 @@
 			productReference = 80554C1524C7DAEB007A33BC /* Hours Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		80554C3624C80FC1007A33BC /* Hours CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80554C3E24C80FC2007A33BC /* Build configuration list for PBXNativeTarget "Hours CalculatorTests" */;
+			buildPhases = (
+				80554C3324C80FC1007A33BC /* Sources */,
+				80554C3424C80FC1007A33BC /* Frameworks */,
+				80554C3524C80FC1007A33BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80554C3D24C80FC2007A33BC /* PBXTargetDependency */,
+			);
+			name = "Hours CalculatorTests";
+			productName = "Hours CalculatorTests";
+			productReference = 80554C3724C80FC1007A33BC /* Hours CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -129,6 +180,10 @@
 				TargetAttributes = {
 					80554C1424C7DAEB007A33BC = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					80554C3624C80FC1007A33BC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 80554C1424C7DAEB007A33BC;
 					};
 				};
 			};
@@ -146,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				80554C1424C7DAEB007A33BC /* Hours Calculator */,
+				80554C3624C80FC1007A33BC /* Hours CalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +217,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80554C3524C80FC1007A33BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -170,13 +233,30 @@
 			files = (
 				80554C2F24C7DC82007A33BC /* CustomTextField.swift in Sources */,
 				80554C1D24C7DAEB007A33BC /* HomeVC.swift in Sources */,
-				80554C3224C80D42007A33BC /* Values.swift in Sources */,
+				80554C3224C80D42007A33BC /* Wage.swift in Sources */,
 				80554C1924C7DAEB007A33BC /* AppDelegate.swift in Sources */,
 				80554C1B24C7DAEB007A33BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80554C3324C80FC1007A33BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80554C3A24C80FC2007A33BC /* Hours_CalculatorTests.swift in Sources */,
+				80554C4124C8118F007A33BC /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80554C3D24C80FC2007A33BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80554C1424C7DAEB007A33BC /* Hours Calculator */;
+			targetProxy = 80554C3C24C80FC2007A33BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		80554C1E24C7DAEB007A33BC /* Main.storyboard */ = {
@@ -346,6 +426,44 @@
 			};
 			name = Release;
 		};
+		80554C3F24C80FC2007A33BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hours CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raghu.Hours-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hours Calculator.app/Hours Calculator";
+			};
+			name = Debug;
+		};
+		80554C4024C80FC2007A33BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hours CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raghu.Hours-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hours Calculator.app/Hours Calculator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,6 +481,15 @@
 			buildConfigurations = (
 				80554C2A24C7DAEF007A33BC /* Debug */,
 				80554C2B24C7DAEF007A33BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80554C3E24C80FC2007A33BC /* Build configuration list for PBXNativeTarget "Hours CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80554C3F24C80FC2007A33BC /* Debug */,
+				80554C4024C80FC2007A33BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

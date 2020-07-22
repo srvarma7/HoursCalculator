@@ -9,8 +9,6 @@
 import UIKit
 
 class HomeVC: UIViewController {
-    
-    var values: Values!
 
     @IBOutlet weak var wageTF: CustomTextField!
     @IBOutlet weak var itemCostTF: CustomTextField!
@@ -19,9 +17,6 @@ class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        values = Values()
-        
         let calcBtn = UIButton(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 60))
         calcBtn.setTitle("Calculate", for: .normal)
         calcBtn.backgroundColor = .orange
@@ -33,10 +28,8 @@ class HomeVC: UIViewController {
 
     @objc func calculate() {
         if let wage = Int(wageTF.text!) {
-            values.wage = wage
             if let cost = Int(itemCostTF.text!) {
-                values.cost = cost
-                let hours = values.cost/values.wage
+                let hours = cost/wage
                 resultsLbl.text = "You need to work for \(hours) hours to buy the item"
             }
         }

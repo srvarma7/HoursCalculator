@@ -8,7 +8,10 @@
 
 import Foundation
 
-struct Values {
-    var wage: Int!
-    var cost: Int!
+class Wage {
+    
+    class func calWage(forWage wage: Double, forCost cost: Double) -> Int {
+        return Int((cost / wage).rounded(.up))
+    }
+    
 }
