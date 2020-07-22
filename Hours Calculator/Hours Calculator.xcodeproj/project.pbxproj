@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80554C1924C7DAEB007A33BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C1824C7DAEB007A33BC /* AppDelegate.swift */; };
+		80554C1B24C7DAEB007A33BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C1A24C7DAEB007A33BC /* SceneDelegate.swift */; };
+		80554C1D24C7DAEB007A33BC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C1C24C7DAEB007A33BC /* HomeVC.swift */; };
+		80554C2024C7DAEB007A33BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80554C1E24C7DAEB007A33BC /* Main.storyboard */; };
+		80554C2224C7DAEF007A33BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80554C2124C7DAEF007A33BC /* Assets.xcassets */; };
+		80554C2524C7DAEF007A33BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80554C2324C7DAEF007A33BC /* LaunchScreen.storyboard */; };
+		80554C2F24C7DC82007A33BC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C2E24C7DC82007A33BC /* CustomTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80554C1524C7DAEB007A33BC /* Hours Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hours Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80554C1824C7DAEB007A33BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80554C1A24C7DAEB007A33BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80554C1C24C7DAEB007A33BC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = ../HomeVC.swift; sourceTree = "<group>"; };
+		80554C1F24C7DAEB007A33BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80554C2124C7DAEF007A33BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80554C2424C7DAEF007A33BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80554C2624C7DAEF007A33BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80554C2E24C7DC82007A33BC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80554C1224C7DAEB007A33BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80554C0C24C7DAEB007A33BC = {
+			isa = PBXGroup;
+			children = (
+				80554C1724C7DAEB007A33BC /* Hours Calculator */,
+				80554C1624C7DAEB007A33BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80554C1624C7DAEB007A33BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80554C1524C7DAEB007A33BC /* Hours Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80554C1724C7DAEB007A33BC /* Hours Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				80554C2D24C7DB35007A33BC /* Controller */,
+				80554C2C24C7DB2F007A33BC /* View */,
+				80554C1824C7DAEB007A33BC /* AppDelegate.swift */,
+				80554C1A24C7DAEB007A33BC /* SceneDelegate.swift */,
+				80554C1E24C7DAEB007A33BC /* Main.storyboard */,
+				80554C2124C7DAEF007A33BC /* Assets.xcassets */,
+				80554C2324C7DAEF007A33BC /* LaunchScreen.storyboard */,
+				80554C2624C7DAEF007A33BC /* Info.plist */,
+			);
+			path = "Hours Calculator";
+			sourceTree = "<group>";
+		};
+		80554C2C24C7DB2F007A33BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80554C2E24C7DC82007A33BC /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80554C2D24C7DB35007A33BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80554C1C24C7DAEB007A33BC /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80554C1424C7DAEB007A33BC /* Hours Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80554C2924C7DAEF007A33BC /* Build configuration list for PBXNativeTarget "Hours Calculator" */;
+			buildPhases = (
+				80554C1124C7DAEB007A33BC /* Sources */,
+				80554C1224C7DAEB007A33BC /* Frameworks */,
+				80554C1324C7DAEB007A33BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hours Calculator";
+			productName = "Hours Calculator";
+			productReference = 80554C1524C7DAEB007A33BC /* Hours Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80554C0D24C7DAEB007A33BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sai Raghu Varma Kallepalli";
+				TargetAttributes = {
+					80554C1424C7DAEB007A33BC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 80554C1024C7DAEB007A33BC /* Build configuration list for PBXProject "Hours Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80554C0C24C7DAEB007A33BC;
+			productRefGroup = 80554C1624C7DAEB007A33BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80554C1424C7DAEB007A33BC /* Hours Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80554C1324C7DAEB007A33BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80554C2524C7DAEF007A33BC /* LaunchScreen.storyboard in Resources */,
+				80554C2224C7DAEF007A33BC /* Assets.xcassets in Resources */,
+				80554C2024C7DAEB007A33BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80554C1124C7DAEB007A33BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80554C2F24C7DC82007A33BC /* CustomTextField.swift in Sources */,
+				80554C1D24C7DAEB007A33BC /* HomeVC.swift in Sources */,
+				80554C1924C7DAEB007A33BC /* AppDelegate.swift in Sources */,
+				80554C1B24C7DAEB007A33BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80554C1E24C7DAEB007A33BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80554C1F24C7DAEB007A33BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80554C2324C7DAEF007A33BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80554C2424C7DAEF007A33BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80554C2724C7DAEF007A33BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80554C2824C7DAEF007A33BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80554C2A24C7DAEF007A33BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hours Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raghu.Hours-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80554C2B24C7DAEF007A33BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hours Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raghu.Hours-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80554C1024C7DAEB007A33BC /* Build configuration list for PBXProject "Hours Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80554C2724C7DAEF007A33BC /* Debug */,
+				80554C2824C7DAEF007A33BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80554C2924C7DAEF007A33BC /* Build configuration list for PBXNativeTarget "Hours Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80554C2A24C7DAEF007A33BC /* Debug */,
+				80554C2B24C7DAEF007A33BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80554C0D24C7DAEB007A33BC /* Project object */;
+}
