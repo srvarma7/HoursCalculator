@@ -17,6 +17,7 @@
 		80554C3224C80D42007A33BC /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3124C80D42007A33BC /* Wage.swift */; };
 		80554C3A24C80FC2007A33BC /* Hours_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3924C80FC2007A33BC /* Hours_CalculatorTests.swift */; };
 		80554C4124C8118F007A33BC /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3124C80D42007A33BC /* Wage.swift */; };
+		80554C4324C816DB007A33BC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C4224C816DB007A33BC /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		80554C3724C80FC1007A33BC /* Hours CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hours CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80554C3924C80FC2007A33BC /* Hours_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hours_CalculatorTests.swift; sourceTree = "<group>"; };
 		80554C3B24C80FC2007A33BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80554C4224C816DB007A33BC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				80554C2E24C7DC82007A33BC /* CustomTextField.swift */,
+				80554C4224C816DB007A33BC /* CustomButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				80554C2F24C7DC82007A33BC /* CustomTextField.swift in Sources */,
 				80554C1D24C7DAEB007A33BC /* HomeVC.swift in Sources */,
+				80554C4324C816DB007A33BC /* CustomButton.swift in Sources */,
 				80554C3224C80D42007A33BC /* Wage.swift in Sources */,
 				80554C1924C7DAEB007A33BC /* AppDelegate.swift in Sources */,
 				80554C1B24C7DAEB007A33BC /* SceneDelegate.swift in Sources */,

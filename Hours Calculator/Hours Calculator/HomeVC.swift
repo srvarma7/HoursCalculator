@@ -14,6 +14,7 @@ class HomeVC: UIViewController {
     @IBOutlet weak var itemCostTF: CustomTextField!
     
     @IBOutlet weak var resultsLbl: UILabel!
+    @IBOutlet weak var smallLbl: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,17 +25,28 @@ class HomeVC: UIViewController {
         calcBtn.addTarget(self, action: #selector(calculate), for: .touchUpInside)
 
         itemCostTF.inputAccessoryView = calcBtn
+        changeLabelVisibility(flag: true)
     }
 
     @objc func calculate() {
-        if let wage = Int(wageTF.text!) {
-            if let cost = Int(itemCostTF.text!) {
-                let hours = cost/wage
-                resultsLbl.text = "You need to work for \(hours) hours to buy the item"
-            }
+        if let wage = Double(wageTF.text!), let cost = Double(itemCostTF.text!) {
+            view.endEditing(true)
+            let hours = (cost / wage).rounded(.up)
+            resultsLbl.text = "\(hours)"
+            smallLbl.text = "hours"
+            changeLabelVisibility(flag: false)
         }
-        
     }
-
+     
+    @IBAction func onClearTapped(_ sender: Any) {
+        wageTF.text = ""
+        itemCostTF.text = ""
+        changeLabelVisibility(flag: true)
+    }
+    
+    func changeLabelVisibility(flag: Bool) {
+        resultsLbl.isHidden = flag
+        smallLbl.isHidden = flag
+    }
 }
 
