@@ -14,6 +14,7 @@
 		80554C2224C7DAEF007A33BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80554C2124C7DAEF007A33BC /* Assets.xcassets */; };
 		80554C2524C7DAEF007A33BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80554C2324C7DAEF007A33BC /* LaunchScreen.storyboard */; };
 		80554C2F24C7DC82007A33BC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C2E24C7DC82007A33BC /* CustomTextField.swift */; };
+		80554C3224C80D42007A33BC /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80554C3124C80D42007A33BC /* Values.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		80554C2424C7DAEF007A33BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80554C2624C7DAEF007A33BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80554C2E24C7DC82007A33BC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		80554C3124C80D42007A33BC /* Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		80554C1724C7DAEB007A33BC /* Hours Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				80554C3024C80D17007A33BC /* Model */,
 				80554C2D24C7DB35007A33BC /* Controller */,
 				80554C2C24C7DB2F007A33BC /* View */,
 				80554C1824C7DAEB007A33BC /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 				80554C1C24C7DAEB007A33BC /* HomeVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		80554C3024C80D17007A33BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80554C3124C80D42007A33BC /* Values.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			files = (
 				80554C2F24C7DC82007A33BC /* CustomTextField.swift in Sources */,
 				80554C1D24C7DAEB007A33BC /* HomeVC.swift in Sources */,
+				80554C3224C80D42007A33BC /* Values.swift in Sources */,
 				80554C1924C7DAEB007A33BC /* AppDelegate.swift in Sources */,
 				80554C1B24C7DAEB007A33BC /* SceneDelegate.swift in Sources */,
 			);
